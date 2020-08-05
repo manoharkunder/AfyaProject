@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="niveus.afya.testsript.LoginTest"/>
+      <class name="niveus.afya.testsript.FilterTest"/>
+      <class name="niveus.afya.testsript.ProfileUpadateTest"/>
+      <class name="niveus.afya.testsript.CreatePatientTest"/>
+      <class name="niveus.afya.testsript.RegisterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
